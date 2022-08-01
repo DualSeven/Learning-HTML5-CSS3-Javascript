@@ -30,8 +30,9 @@
             </div>
             <br>
             <div>
-                <label for="edad">Edad:</label>
-                <input type="number" name="edad" id="edad" min="1" max="180" step="5" required>
+                <label for="edad">Edad:</label> 
+                <!--tuve um problema con el atributo (step="5") en la edad porque es obligatorio que las edades fueran obligatorias de 5 en 5. Ejemplo: Permite 5,10,15,etc... no permite 2,3,4,6,7,8,9..-->
+                <input type="number" name="edad" id="edad" min="0" max="180">
             </div>
             <br>
             <div>
