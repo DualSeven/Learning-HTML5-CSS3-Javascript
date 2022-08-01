@@ -4,30 +4,37 @@
 		<title>Formularios</title>
 	</head>
 	<body>
+		<!--atributo action seria el link al resultado de rellenar la planilla -->
 		<form action="resultado.html" method="get">
+			
+			<!-- type= nos ayuda a clasificar el tipo de datos que queremos recibir,
+			required=obliga a rellenar el campo. label significa etiquetag -->
 			<div>
 				<label for="nombreusuario">Nombre de usuario</label>
 				<input type="text" name="nombreusuario" id="nombreusuario" required>
 			</div>
-			<br>
+			<br> <!--br solo para dar un espacio entre los campos-->
 			<div>
 				<label for="contrasenha">Contraseña</label>
 				<input type="password" name="contrasenha" id="contrasenha" required>
+				<!--atributo de type= Password ayuda a clasificar y ocultar el contenido -->
 			</div>
 			<br>
 			<div>
 				<label for="nascimiento">Cual es tu fecha de nascimiento</label>
 				<input type="date" name="nascimiento" id="nascimiento">
+				<!--el atributo "Date" clasifica y nos otorga un calendario para seleccionar la fecha-->
 			</div>
 			<br>
 			<div>
 				<label for="Edad">Cual es tu Edad</label>
 				<input type="number" name="Edad" id="Edad" min="5" max="200" step="3">
+				<!-- atributo de "min" y "max" ayuda a limitar el rango de los datos y "step" a sumar o restar (si usamos la flechitas) -->
 			</div>
 			<br>
 			<div>
 				<label for="email">Email</label>
-				<input type="email">
+				<input type="email">   <!--atributo que preconfigura para introducir email -->
 			</div>
 			<br>
 			<div>
@@ -35,8 +42,9 @@
 				<textarea name="comentarios" id="comentarios"></textarea>
 			</div>
 			<br>
-			<button type="reset">Reset</button>
-			<button type="submit">Enviar</button>
+			<button type="reset">Reset</button> <!--borra todos los campos a ser rellenados -->
+
+			<button type="submit">Enviar</button> 
 		</form>
 	</body>
 </html>
