@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    text-transform: capitalize;
+}
+
+/* Estoy probando Fuentes y colores */
+p {
+    color: rgb(19, 19, 110);
+    font-size: 16pt;
+} 
+
+
+
+/*estoy probando los selectores de etiquetas de css*/
+
+
+/* esta parte me parecio muy interesante con parrafos, span, etc.. 
+segun las declaraciones, (id = "#") , (class= "."), todos sin selector ("*") */
+
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    /* color: crimson; */
+    font-size: 12pt;
+}
+.encabezado {
+    color: blue;
+    font-size: 28pt;
+    text-transform: uppercase;
+}
+
+*.warning {
+    color: red;
+    text-transform: uppercase ;
+}
+
+/*multiples elementos juntos pueden obedecer un conjunto de estilos */
+
+.autor, .fecha, .ubicacion, h1, #segunda-noticia {
+    text-transform: capitalize;
+    text-decoration: underline;
+}

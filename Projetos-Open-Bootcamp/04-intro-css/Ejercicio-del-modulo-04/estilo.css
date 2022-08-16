@@ -1,0 +1,8 @@
+*#elemento-1{
+    color: red;
+}
+
+/* ok demore como 10 minutos para ser sincero.. pero lo logre :D */
+ul>li#elemento-1 {
+    font-size: 2rem;
+}
